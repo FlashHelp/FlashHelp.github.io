@@ -543,3 +543,13 @@ ul {
 .peis{
 	width: 80%;
 }
+
+.preview{
+	background-color:rgba(33,150,243,1.00);
+	padding: 20px;
+}
+
+.pre-img{
+	width: 100%;
+	padding: 10%;
+}
