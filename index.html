@@ -12,13 +12,18 @@
 <link rel="stylesheet" href="assets/css/style.css"/>
 <link rel="stylesheet" href="assets/css/responsive.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<script>
+   	function load_home() {
+ 		document.getElementById("iconsView").innerHTML = '<object type="text/html" data="https://boxicons.com" width="100%" height="100%"></object>';
+   	}
+</script>
 </head>
-<body>
+<body onLoad="load_home()">
 <div class="hero-background">
-	<div class="header-container header"> <a class="logo" href="#"> <img alt="#" class="logo" src="assets/images/fl_logo.png"/> </a> <a href="https://github.com/FlashHelp/FlashHelp.github.io/raw/master/assets/fh0.0.34.apk">
+	<div class="header-container header"> <a class="logo" href="#"> <img alt="#" class="logo" src="assets/images/fl_logo.png"/> </a> <a href="https://github.com/xSILENCEx/flash_help/raw/master/preview/fh0.0.34.apk">
 		<button class="header-btn"> 下载 闪帮0.0.3</button>
 		</a>
-		<div class="header-right"> <a class="navbar-item" href="#team">我们的团队</a> <a class="navbar-item" href="#pricing">项目详情</a> <a class="navbar-item" href="#features">应用特点</a> </div>
+		<div class="header-right"><a class="navbar-item" href="#features">应用特点</a> <a class="navbar-item" href="#pricing">项目详情</a><a class="navbar-item" href="#team">我们的团队</a> </div>
 	</div>
 </div>
 <div id="features" class="features-section">
@@ -57,13 +62,45 @@
 		</div>
 	</div>
 	<div id="pricing" class="pricing-background">
-		<h2 class="pricing-section-header light text-center">项目详情</h2>
+		<p class="pricing-section-header blod">项目详情</p>
 		<h4 class=" pricing-section-sub text-center light">这里将从应用的结构、配色、图标、布局等方面进行介绍</h4>
-		<div class="jg"><img alt="#" src="assets/images/闪帮.svg" class="jg-img"></div>
-		<div class="jg"><img alt="#" src="http://r.photo.store.qq.com/psb?/V14GUp6L4FCDEc/e9MdOt2jShK8qAXRlLiUf.RtGO2cFq1yE0OOMeeD9jU!/r/dDABAAAAAAAA" class="peis"></div>
-		<div class="jg"><img alt="#" src="http://r.photo.store.qq.com/psb?/V14GUp6L4FCDEc/1FpJ9LSzd.bCiUAONQDMXdg2DYl5BEVk7SwwNLVp8E4!/r/dDYBAAAAAAAA" class="peis"></div>
+		<p class="bold" style="color:rgba(111,111,111,1.00);font-size: 25px;margin-top: 30px">应用结构(点击查看大图)</p>
+		<div class="jg"><a href="struct.html"><img alt="#" src="http://r.photo.store.qq.com/psb?/V14GUp6L4FCDEc/mDJ4O1fAzsMaJJzeXLymt*LR.h06cCqEkGXpQXEt1Us!/r/dDUBAAAAAAAA" class="jg-img"></a></div>
+		<div class="container" style="background-color: rgba(255,255,255,1.00);width: 100%">
+			<p class="bold" style="color:rgba(142,80,219,1.00);font-size: 25px;margin-top: 30px">配色(应用中的主要颜色)</p>
+			<div class="row">
+				<div class="color-box col-sm-4">
+					<div class="color-item c1"></div>
+					<h4 class="font-weight-bold" style="color: rgba(33,150,243,1.00)">主题色0xFF2196F3</h4>
+				</div>
+				<div class="color-box col-sm-4">
+					<div class="color-item c2"></div>
+					<h4 class="font-weight-bold" style="color:rgba(253,168,75,1.00)">次主题色0xFFFDA84B</h4>
+				</div>
+				<div class="color-box col-sm-4">
+					<div class="color-item c3"></div>
+					<h4 class="font-weight-bold" style="color:rgba(255,84,74,1.00)">警告色0xFFFF544A</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="color-box col-sm-4">
+					<div class="color-item c4"></div>
+					<h4 class="font-weight-bold" style="color:rgba(75,75,75,1.00)">标题色0xFF4B4B4B</h4>
+				</div>
+				<div class="color-box col-sm-4">
+					<div class="color-item c5"></div>
+					<h4 class="font-weight-bold" style="color:rgba(128,128,128,1.00)">副标题色0xFF808080</h4>
+				</div>
+				<div class="color-box col-sm-4">
+					<div class="color-item c6"></div>
+					<h4 class="font-weight-bold" style="color:rgba(218,218,218,1.00)">阴影色0xAADADADA</h4>
+				</div>
+			</div>
+		</div>
+		<p class="bold" style="color:rgba(57,57,57,1.00);font-size: 25px;margin-top: 30px">图标(采用Boxicons)</p>
+		<div id="iconsView" class="icons-div"> </div>
 		<div class="container-fluid preview">
-			<p class="font-weight-bold" style="color: rgba(255,255,255,1.00);font-size: 45px">更多布局预览</p>
+			<p class="bold" style="color: rgba(255,255,255,1.00);font-size: 25px;margin-bottom: 40px">更多布局预览</p>
 			<div class="row">
 				<div class="col-sm-2"><img alt="#"  class="pre-img" src="http://r.photo.store.qq.com/psb?/V14GUp6L4FCDEc/8qCYuMnMIqq5N*9hReg8uzkT87T*NkC.E0nJmozW4yU!/r/dL8AAAAAAAAA"></div>
 				<div class="col-sm-2"><img  alt="#"  class="pre-img" src="http://r.photo.store.qq.com/psb?/V14GUp6L4FCDEc/aX*Nf.ppHS23mtJQyXfEB0.loZMrw2XcGtNAy36Uek4!/r/dEYBAAAAAAAA"></div>
@@ -77,26 +114,27 @@
 </div>
 <div id="team" class="team">
 	<h2 class="team-section-header light text-center">我们的参赛团队</h2>
-	<div class="team-container row">
+	<div class="team-container row"> <a href="#">
 		<div class="col-sm-4 team-member"> <img alt="#" src="assets/images/01.png">
 			<div class="team-member-text">
-				<h4 class="team-member-position light bold">钟家豪</h4>
-				<h5 class="bold">领队</h5>
+				<h4 class="team-member-position bold">钟家豪</h4>
+				<h5>领队</h5>
 				<p class="light">负责应用后台与网络通信</p>
 			</div>
 		</div>
+		</a> <a href="#">
 		<div class="col-sm-4 team-member"> <img alt="#" src="assets/images/02.png">
 			<div class="team-member-text">
-				<h4 class="team-member-position light bold">范捷</h4>
-				<h5 class="bold">队员</h5>
+				<h4 class="team-member-position bold">范捷</h4>
+				<h5>队员</h5>
 				<p class="light">负责应用后台与网络通信</p>
 			</div>
 		</div>
-		<a href="http://me.liugl.cn">
+		</a> <a href="http://me.liugl.cn">
 		<div class="col-sm-4 team-member"> <img alt="#" src="assets/images/03.png">
 			<div class="team-member-text">
-				<h4 class="team-member-position light bold">刘光良</h4>
-				<h5 class="bold">队员</h5>
+				<h4 class="team-member-position bold">刘光良</h4>
+				<h5>队员</h5>
 				<p class="light">负责UI设计与APP编写</p>
 			</div>
 		</div>
