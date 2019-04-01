@@ -578,27 +578,27 @@ ul {
 
 .color-item {
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	margin-top: 40px;
 	border-radius: 10px;
 	transition: all 0.5s;
 }
 
 .color-item:hover {
-	height: 110px;
+	height: 160px;
 	margin-top: 30px;
 	transition: all 0.3s;
 }
 
 .color-box {
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 8%;
+	padding-right: 8%;
 	transition: all 0.5s;
 }
 
 .color-box:hover {
-	padding-left: 9%;
-	padding-right: 9%;
+	padding-left: 5%;
+	padding-right: 5%;
 	transition: all 0.5s;
 }
 
