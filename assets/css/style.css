@@ -20,7 +20,7 @@ body:before {
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family:"microsoft yahei", sans-serif;
 }
 
 .name-style {
@@ -55,7 +55,6 @@ body {
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 1000px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -553,7 +552,7 @@ ul {
 
 .jg-img {
 	padding: 40px;
-	width: 60%;
+	max-width: 100%;
 }
 
 .peis {
@@ -645,6 +644,6 @@ ul {
 }
 
 .yx-style {
-	width: 50%;
+	width: 85%;
 	margin-bottom: 40px;
 }
