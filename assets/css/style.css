@@ -323,6 +323,7 @@ body {
 .pricing-section-sub {
 	padding-top: 10px;
 	padding-bottom: 20px;
+	line-height: 28px;
 	color: grey;
 }
 
